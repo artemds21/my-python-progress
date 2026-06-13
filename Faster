@@ -1,0 +1,4 @@
+s = input()
+f = s.strip()
+n = f.capitalize()
+print(n)
