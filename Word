@@ -1,0 +1,7 @@
+s = input()
+f = " "
+total = 1
+for i in range(len(s)):
+  if f in s[i]:
+    total += 1
+print(total)
