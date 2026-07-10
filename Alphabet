@@ -1,0 +1,6 @@
+s = []
+for i in range(26):
+  f = chr(97 + i)
+  t = f * (i + 1)
+  s.append(t)
+print(s)
